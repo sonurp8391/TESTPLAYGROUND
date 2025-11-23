@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TestPlayground - Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">TestPlayground</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html" class="active">Form</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Form Page</h1>
+    <p>Fill out the form below to practice form testing.</p>
+
+    <form id="contactForm" novalidate>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" />
+      </div>
+
+      <button type="submit">Submit</button>
+
+      <p id="formMessage" class="info-text"></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

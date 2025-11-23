@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TestPlayground - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar (common on all pages) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">TestPlayground</div>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home page content -->
+    <section>
+      <h1>Welcome to TestPlayground</h1>
+      <p>
+        This simple website is designed to help software testing students
+        practice manual and automated tests using Selenium.
+      </p>
+
+      <button id="showMessageBtn">Show Message</button>
+      <p id="messageOutput" class="info-text"></p>
+    </section>
+
+    <!-- Right-click context menu area -->
+    <section class="context-section">
+      <h2>Right-Click Practice Area</h2>
+      <p>Use this box to test custom right-click (context menu) behavior.</p>
+
+      <div id="contextBox" class="context-box">
+        Right-Click Here
+      </div>
+
+      <div id="contextMenu" class="custom-menu">
+        <ul>
+          <li>Edit</li>
+          <li>Delete</li>
+          <li>Refresh</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
